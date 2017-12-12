@@ -1,7 +1,26 @@
 /* Universal Styles */
 
+/* Roboto typeface: Light, Regular, Medium, and Bold */
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto-Light.woff2) format('woff2');
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto.woff2) format('woff2');
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto-Medium.woff2) format('woff2');
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../fonts/Roboto-Bold.woff2) format('woff2');
+}
+
+
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
 }
 
@@ -66,6 +85,7 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  font-family: Roboto-Light;
 }
 
 header .icon {
