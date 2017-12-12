@@ -43,7 +43,7 @@ html {
 }
 
 .image-container {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .image-container img {
@@ -334,6 +334,12 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+  justify-content: center;
+}
+
+#filters-section .image-container{
+  width: 24.5%;
 }
 
 @media only screen and (max-width: 760px) {
