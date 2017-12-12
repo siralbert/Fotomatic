@@ -322,6 +322,8 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  font-family: Roboto-Bold;
+  filter: opacity(1.0);
 }
 
 #filters-section .content h3 {
@@ -329,6 +331,7 @@ header .mobile {
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  font-family: Roboto-Light;
 }
 
 #filters-section .images-container {
