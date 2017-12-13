@@ -41,6 +41,18 @@ html {
   line-height: 1.4;
   font-size: 1.25rem;
 }
+header .desktop .button {
+  display: none;
+  padding: .1875rem .5rem;
+  background-color: #9dc20b;
+  line-height: 1.6;
+  color: white;
+  font-family: Roboto-Light;
+  font-size: 1rem;
+}
+li#hidden{
+  display:none;
+}
 
 .image-container {
     overflow: hidden;
@@ -131,6 +143,8 @@ header .mobile {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
+    font-family: Roboto-Light;
+    font-size: 1rem;
   }
 }
 
@@ -291,6 +305,20 @@ header .mobile {
   .feature h3 {
     font-size: .875rem;
     line-height: 1.4;
+  }
+
+  #sign-up-cta{
+    border: none;
+    background-color: transparent;
+  }
+  .email {
+    display: none;
+  }
+  li#hidden{
+    display: list-item;
+  }
+  header .desktop .button{
+    display: inline;
   }
 }
 
