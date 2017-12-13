@@ -241,10 +241,6 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 450px) {
-  #sign-up-section {
-    height: 20rem;
-  }
 
   #sign-up-cta h1 {
     font-size: 2.25rem;
@@ -326,6 +322,7 @@ header .mobile {
   }
 }
 
+
 @media only screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
@@ -337,7 +334,26 @@ header .mobile {
     padding: 1.25rem 1rem 0 1rem;
   }
 }
+@media only screen and (max-width: 450px) {
+  #sign-up-section {
+    height: 15rem;
+  }
+}
 
+/* Features */
+@media only screen and (max-width: 450px){
+  .feature {
+    margin: 0;
+    padding: 1rem 1rem 1.875rem 1rem;
+  }
+  #advanced{
+    background-color: rgb(212, 213, 214);
+  }
+  .feature h2{
+    font-family: Roboto-Regular;
+  }
+
+}
 /* Filters Section */
 
 #filters-section {
